@@ -1,0 +1,14 @@
+#include <stdio.h>
+#include <math.h>
+int main()
+{
+     int n,ld,fd,d;
+     printf("Enter any Number:");
+     scanf("%d",&n);
+     ld=n%10;
+     d=log10(n);
+     fd=n/pow(10,d);
+     printf("First Digit Of Given No:%d\n",fd);
+     printf("Last Digit Of Given No:%d",ld);
+    return 0;
+}
